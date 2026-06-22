@@ -8,25 +8,25 @@
     "ios": "expo start --ios",
     "android": "expo start --android",
     "web": "expo start --web",
-    "build": "echo 'Use EAS Build for production mobile builds'",
-    "lint": "echo 'mobile lint placeholder'",
+    "build": "echo mobile production builds use EAS",
+    "lint": "echo mobile lint placeholder",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@proudly/shared": "workspace:*",
-    "@react-navigation/bottom-tabs": "latest",
-    "@react-navigation/native": "latest",
-    "expo": "latest",
-    "expo-linear-gradient": "latest",
-    "expo-router": "latest",
-    "expo-status-bar": "latest",
-    "react": "latest",
-    "react-native": "latest",
-    "react-native-safe-area-context": "latest",
-    "react-native-screens": "latest"
+    "@react-navigation/bottom-tabs": "7.3.14",
+    "@react-navigation/native": "7.1.10",
+    "expo": "53.0.22",
+    "expo-linear-gradient": "14.1.5",
+    "expo-router": "5.1.4",
+    "expo-status-bar": "2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "4.11.1"
   },
   "devDependencies": {
-    "@types/react": "latest",
-    "typescript": "latest"
+    "@types/react": "19.0.14",
+    "typescript": "5.8.3"
   }
 }
