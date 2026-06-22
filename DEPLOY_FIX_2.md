@@ -1,1 +1,0 @@
-Use Node 20 and pnpm 10 for Vercel deploys.
