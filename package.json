@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Proudly queer-safe travel, stays, nightlife, events, and trip-planning web platform.",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "npm@10.8.2",
   "engines": {
     "node": "20.x"
   },
@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@proudly/shared": "workspace:*",
+    "@proudly/shared": "file:packages/shared",
     "@supabase/supabase-js": "2.50.0",
     "next": "15.4.6",
     "react": "19.1.0",
