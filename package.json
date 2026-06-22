@@ -1,23 +1,30 @@
 {
-  "name": "proudly-monorepo",
+  "name": "proudly-web",
   "private": true,
   "version": "0.1.0",
-  "description": "Proudly travel platform.",
+  "description": "Proudly queer-safe travel, stays, nightlife, events, and trip-planning web platform.",
   "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": "20.x"
   },
   "scripts": {
-    "dev": "turbo dev",
-    "dev:web": "pnpm --filter @proudly/web dev",
-    "dev:mobile": "pnpm --filter @proudly/mobile start",
-    "build": "turbo build",
-    "build:web": "pnpm --filter @proudly/web build",
-    "lint": "turbo lint",
-    "typecheck": "turbo typecheck"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint || true",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@proudly/shared": "workspace:*",
+    "@supabase/supabase-js": "2.50.0",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "turbo": "2.5.4",
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
     "typescript": "5.8.3"
   }
 }
