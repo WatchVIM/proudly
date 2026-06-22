@@ -1,0 +1,13 @@
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4F9A"/>
+      <stop offset="0.35" stop-color="#FFBF5F"/>
+      <stop offset="0.67" stop-color="#5CE1E6"/>
+      <stop offset="1" stop-color="#8C5CFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M39.8 64.4C19.2 48.8 8 36.7 8 23.7C8 13.7 15.8 6 25.8 6C31.7 6 37.2 8.8 40.7 13.3C44.2 8.8 49.7 6 55.6 6C65.6 6 73.4 13.7 73.4 23.7C73.4 36.7 62.2 48.8 41.6 64.4L40.7 65.1L39.8 64.4Z" fill="url(#g)"/>
+  <path d="M40.7 52.2C25.5 40.3 18.1 31.5 18.1 24.1C18.1 19.6 21.5 16.2 26 16.2C31.2 16.2 35.1 20.1 40.7 28.2C46.3 20.1 50.2 16.2 55.4 16.2C59.9 16.2 63.3 19.6 63.3 24.1C63.3 31.5 55.9 40.3 40.7 52.2Z" fill="#08111F"/>
+  <text x="92" y="51" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-2" fill="white">Proudly.</text>
+</svg>
