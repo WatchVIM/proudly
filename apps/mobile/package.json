@@ -1,0 +1,32 @@
+{
+  "name": "@proudly/mobile",
+  "private": true,
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "build": "echo 'Use EAS Build for production mobile builds'",
+    "lint": "echo 'mobile lint placeholder'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@proudly/shared": "workspace:*",
+    "@react-navigation/bottom-tabs": "latest",
+    "@react-navigation/native": "latest",
+    "expo": "latest",
+    "expo-linear-gradient": "latest",
+    "expo-router": "latest",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}

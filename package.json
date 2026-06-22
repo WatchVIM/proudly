@@ -1,0 +1,20 @@
+{
+  "name": "proudly-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Proudly. — queer-safe travel, stays, nightlife, events, and trip planning platform.",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "pnpm --filter @proudly/web dev",
+    "dev:mobile": "pnpm --filter @proudly/mobile start",
+    "build": "turbo build",
+    "build:web": "pnpm --filter @proudly/web build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Proudly.",
+    "slug": "proudly-travel",
+    "scheme": "proudly",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "travel.proudly.app"
+    },
+    "android": {
+      "package": "travel.proudly.app"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
