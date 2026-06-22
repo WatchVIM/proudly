@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter @proudly/web build",
+  "buildCommand": "pnpm build",
   "installCommand": "npx pnpm@10.13.1 install --frozen-lockfile=false",
   "framework": "nextjs"
 }
